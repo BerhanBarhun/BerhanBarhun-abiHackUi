@@ -279,11 +279,12 @@ td {
 
 .arşiv img {
   transition: transform 0.25s ease;
+  margin: 10px;
 }
 
 .arşiv img:hover {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
   z-index: 1000;
   position: relative;
 }
